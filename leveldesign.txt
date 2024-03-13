@@ -1,0 +1,23 @@
+~tenative level design~
+
+player must clear 30 pipes per level
+
+level 1: normal mode and parameters
+
+level 2:  introduces 'flame pipes'. fire animation will render for 20% of
+ the pipes at random. collision detection window shortens for 'flame pipes'
+
+level 3: 10% more flame pipes rendered;
+
+level 4: in addition to flaming pipes, the speed increases 20% (velocityX)
+ after the first 15 pipes. frequency of generated flaming pipes and
+ collision detection window remain.
+
+level 5: 20% speed increase from the start of the level, flaming pipe
+parameters consistent with level 4
+
+level 6: flappy bird is ablaze with fire animation, 120% speed through
+the level; same parameters as level 5, but the user must clear 50 pipes
+to win the game.
+
+
